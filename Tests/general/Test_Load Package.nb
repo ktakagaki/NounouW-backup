@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[      3015,        110]
-NotebookOptionsPosition[      2249,         76]
-NotebookOutlinePosition[      2589,         91]
-CellTagsIndexPosition[      2546,         88]
+NotebookDataLength[      3219,        116]
+NotebookOptionsPosition[      2453,         82]
+NotebookOutlinePosition[      2793,         97]
+CellTagsIndexPosition[      2750,         94]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -38,16 +38,21 @@ Cell[CellGroupData[{
 
 Cell[BoxData["\<\"Welcome to NounouW, the Wolfram Language/Mathematica \
 interface to nounou!\"\>"], "Print",
- CellChangeTimes->{3.6168284784553947`*^9, 3.616828511698296*^9}],
+ CellChangeTimes->{3.6168284784553947`*^9, 3.616828511698296*^9, 
+  3.6168346868714952`*^9}],
 
-Cell[BoxData["\<\"      ( current Git HEAD:   )\"\>"], "Print",
- CellChangeTimes->{3.6168284784553947`*^9, 3.616828511699296*^9}],
+Cell[BoxData["\<\"      ( current Git HEAD:  \
+50bcc746b448f62e75128f3b5551b2c1502aca1d )\"\>"], "Print",
+ CellChangeTimes->{3.6168284784553947`*^9, 3.616828511698296*^9, 
+  3.616834686873496*^9}],
 
 Cell[BoxData["\<\"      ( http://github.org/ktakagaki/nounouw )\"\>"], "Print",
- CellChangeTimes->{3.6168284784553947`*^9, 3.616828511700296*^9}],
+ CellChangeTimes->{3.6168284784553947`*^9, 3.616828511698296*^9, 
+  3.616834686874496*^9}],
 
 Cell[BoxData["\<\"<<Set JLink` java stack size to 6144Mb>>\"\>"], "Print",
- CellChangeTimes->{3.6168284784553947`*^9, 3.6168285117222977`*^9}]
+ CellChangeTimes->{3.6168284784553947`*^9, 3.616828511698296*^9, 
+  3.616834686897497*^9}]
 }, Open  ]]
 }, Open  ]],
 
@@ -66,9 +71,10 @@ Cell[BoxData[
    "]"}]}]], "Input",
  CellChangeTimes->{{3.616828493344246*^9, 3.6168284936152616`*^9}}],
 
-Cell[BoxData["\<\"V:\\\\docs\\\\k.prog\\\\wb\\\\NounouW\\\\NounouW\"\>"], \
-"Output",
- CellChangeTimes->{{3.6168284939252796`*^9, 3.61682851439645*^9}}]
+Cell[BoxData["\<\"C:\\\\Users\\\\Kenta\\\\AppData\\\\Roaming\\\\Mathematica\\\
+\\Applications\\\\NounouW\"\>"], "Output",
+ CellChangeTimes->{{3.6168284939252796`*^9, 3.61682851439645*^9}, 
+   3.616834693857895*^9}]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]]
@@ -97,17 +103,17 @@ Cell[700, 27, 118, 1, 64, "Chapter"],
 Cell[CellGroupData[{
 Cell[843, 32, 122, 2, 31, "Input"],
 Cell[CellGroupData[{
-Cell[990, 38, 175, 2, 23, "Print"],
-Cell[1168, 42, 129, 1, 23, "Print"],
-Cell[1300, 45, 145, 1, 23, "Print"],
-Cell[1448, 48, 142, 1, 23, "Print"]
+Cell[990, 38, 202, 3, 23, "Print"],
+Cell[1195, 43, 196, 3, 23, "Print"],
+Cell[1394, 48, 170, 2, 23, "Print"],
+Cell[1567, 52, 165, 2, 23, "Print"]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[1639, 55, 96, 1, 63, "Section"],
+Cell[1781, 60, 96, 1, 63, "Section"],
 Cell[CellGroupData[{
-Cell[1760, 60, 282, 6, 31, "Input"],
-Cell[2045, 68, 152, 2, 31, "Output"]
+Cell[1902, 65, 282, 6, 31, "Input"],
+Cell[2187, 73, 214, 3, 31, "Output"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]]
