@@ -60,9 +60,11 @@ NounouW`IncreaseJavaStack[NounouW`$JavaStackSize];
 
 
 (*Convenience object for static methods*)
-NN=LoadJavaClass["nounou.NN", StaticsVisible->True];
-NounouW`$NNReader::usage="Main default reader object for NounouW.";
-NounouW`$NNReader = NN`newReader[];
+NN=LoadJavaClass["nounou.NN", StaticsVisible->False, AllowShortContext->True];
+(*NNData=LoadJavaClass["nounou.NNData", StaticsVisible->True, AllowShortContext\[Rule]True];*)
+NNDataReader=LoadJavaClass["nounou.NNDataReader", StaticsVisible->False, AllowShortContext->True];
+NounouW`$NNData::usage="Main default reader object for NounouW.";
+NounouW`$NNData = NN`newNNData[];
 
 
 (*This allows Mathematica to interact transparently with Java/Scala/breeze complex numbers*)
