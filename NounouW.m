@@ -55,6 +55,9 @@ NNXLayoutSquareJavaObjectQ::usage="Checks whether something is a Java object and
 (*Private*)
 
 
+Begin["`Private`"];
+
+
 (*NNDataReaderJavaObjectQ[
 	dataReaderJavaObj_/;(JavaObjectQ[dataReaderJavaObj] 
 					&& InstanceOf[dataReaderJavaObj, "nounou.DataReader"])
