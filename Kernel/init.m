@@ -6,7 +6,8 @@ Get[ "NounouW`NounouW`"];
 NounouW`$JavaStackSize = 6144;
 
 
-Needs[ "JLink`"];
+Needs[ "JLink`" ];
+Needs[ "HokahokaW`" ];
 (*SetOptions[JLink`InstallJava, JVMArguments -> "-Xmx1024m"];
 SetOptions[JLink`ReinstallJava, JVMArguments -> "-Xmx1024m"];
 ReinstallJava[];*)
@@ -14,7 +15,7 @@ ReinstallJava[];*)
 
 NounouW`IncreaseJavaStack[stackSize_Integer]:=
 	Module[{tempOptStringI,tempOptStringR,tempReI=False, tempReR=False, 
-		tempPrint, tempns},
+		tempPrint},
 		
 		tempPrint=PrintTemporary["Checking Java stack size..."];
 
@@ -71,7 +72,4 @@ NounouW`$NNData = NN`newNNData[];
 SetComplexClass["breeze.math.Complex"];
 
 
-(*Needs["NounouW`Plotting`"];*)
-
-
-(*Needs["NounouW`DataPlotting`"];*)
+Needs["NounouW`Data`"];
